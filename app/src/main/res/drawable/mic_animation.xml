@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mic_enabled"
+        android:state_activated="true">
+        <shape android:shape="oval">
+            <size android:width="48dp" android:height="48dp"/>
+            <solid android:color="#4CAF50"/>
+            <stroke android:width="2dp" android:color="#388E3C"/>
+        </shape>
+    </item>
+    <item android:id="@+id/mic_disabled">
+        <shape android:shape="oval">
+            <size android:width="48dp" android:height="48dp"/>
+            <solid android:color="#E0E0E0"/>
+            <stroke android:width="2dp" android:color="#9E9E9E"/>
+        </shape>
+    </item>
+    <transition
+        android:fromId="@id/mic_disabled"
+        android:toId="@id/mic_enabled">
+        <animation-list>
+            <item android:duration="300">
+                <shape android:shape="oval">
+                    <size android:width="48dp" android:height="48dp"/>
+                    <solid android:color="#A5D6A7"/>
+                    <stroke android:width="2dp" android:color="#388E3C"/>
+                </shape>
+            </item>
+        </animation-list>
+    </transition>
+</animated-selector>

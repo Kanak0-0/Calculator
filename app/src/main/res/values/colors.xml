@@ -1,8 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Base colors -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="red">#F00</color>
     <color name="almostBlack">#222</color>
     <color name="orange">#FF8c00</color>
+    
+    <!-- Default theme colors -->
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    
+    <!-- Dark theme colors -->
+    <color name="dark_primary">#FF121212</color>
+    <color name="dark_primary_variant">#FF000000</color>
+    <color name="dark_on_primary">#FFFFFFFF</color>
+    <color name="dark_background">#FF121212</color>
+    
+    <!-- Light theme colors -->
+    <color name="light_primary">#FFFFFFFF</color>
+    <color name="light_primary_variant">#FFCCCCCC</color>
+    <color name="light_on_primary">#FF000000</color>
+    <color name="light_background">#FFFAFAFA</color>
+    
+    <!-- Blue theme colors -->
+    <color name="blue_primary">#FF2196F3</color>
+    <color name="blue_primary_variant">#FF1976D2</color>
+    <color name="blue_on_primary">#FFFFFFFF</color>
+    <color name="blue_background">#FFE3F2FD</color>
+    
+    <!-- Green theme colors -->
+    <color name="green_primary">#FF4CAF50</color>
+    <color name="green_primary_variant">#FF388E3C</color>
+    <color name="green_on_primary">#FFFFFFFF</color>
+    <color name="green_background">#FFE8F5E9</color>
 </resources>

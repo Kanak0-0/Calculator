@@ -1,11 +1,55 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default Calculator theme -->
     <style name="Theme.Calculator00" parent="Theme.AppCompat">
-
         <item name="colorPrimary">@color/orange</item>
         <item name="colorPrimaryVariant">@color/almostBlack</item>
         <item name="colorOnPrimary">@color/white</item>
-
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
 
+    <!-- Base application theme -->
+    <style name="Theme.Calculator" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+            <!-- Customize your theme here. -->
+            <item name="colorPrimary">@color/purple_500</item>
+            <item name="colorPrimaryVariant">@color/purple_700</item>
+            <item name="colorOnPrimary">@color/white</item>
+            <!-- Secondary brand color. -->
+            <item name="colorSecondary">@color/teal_200</item>
+            <item name="colorSecondaryVariant">@color/teal_700</item>
+            <item name="colorOnSecondary">@color/black</item>
+            <!-- Status bar color. -->
+            <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        </style>
+
+    <!-- Dark theme variant -->
+    <style name="Theme.Calculator.Dark" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorPrimaryVariant">@color/dark_primary_variant</item>
+        <item name="colorOnPrimary">@color/dark_on_primary</item>
+        <item name="android:windowBackground">@color/dark_background</item>
+    </style>
+
+    <!-- Light theme variant -->
+    <style name="Theme.Calculator.Light" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/light_primary</item>
+        <item name="colorPrimaryVariant">@color/light_primary_variant</item>
+        <item name="colorOnPrimary">@color/light_on_primary</item>
+        <item name="android:windowBackground">@color/light_background</item>
+    </style>
+
+    <!-- Blue theme variant -->
+    <style name="Theme.Calculator.Blue" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/blue_primary</item>
+        <item name="colorPrimaryVariant">@color/blue_primary_variant</item>
+        <item name="colorOnPrimary">@color/blue_on_primary</item>
+        <item name="android:windowBackground">@color/blue_background</item>
+    </style>
+
+    <!-- Green theme variant -->
+    <style name="Theme.Calculator.Green" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorPrimaryVariant">@color/green_primary_variant</item>
+        <item name="colorOnPrimary">@color/green_on_primary</item>
+        <item name="android:windowBackground">@color/green_background</item>
     </style>
 </resources>
