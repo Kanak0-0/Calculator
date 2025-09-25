@@ -61,6 +61,3 @@ A versatile calculator application for Android, offering standard arithmetic ope
 2.  Open the project in Android Studio.
 3.  Let Gradle sync and build the project.
 4.  Run on an Android device or emulator.
-
----
-*This README was generated to help you get started. Feel free to edit and expand it!*
